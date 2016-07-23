@@ -50,7 +50,7 @@ if [[ "${INTERVAL: -1}" == 'm' && "${INTERVAL:0:-1}" -lt 5 ]]; then
   exit 1
 fi
 
-USER_AGENT="coppit docker no-ip/.1 $USERNAME"
+USER_AGENT="rpi docker no-ip/.1 $USERNAME"
 
 #-----------------------------------------------------------------------------------------------------------------------
 
