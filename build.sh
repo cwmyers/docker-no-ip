@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-docker build --rm=true -t coppit/no-ip . 
+docker build --rm=true -t cwmyers/rpi-no-ip . 

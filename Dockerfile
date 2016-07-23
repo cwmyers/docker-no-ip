@@ -1,6 +1,7 @@
-FROM phusion/baseimage:0.9.17
+# Base system is the Raspian ARM image from Resin
+FROM   resin/rpi-raspbian
 
-MAINTAINER David Coppit <david@coppit.org>
+MAINTAINER Chris Myers <docker@chrisandjo.com>
 
 VOLUME ["/config"]
 
